@@ -1,0 +1,38 @@
+body {
+  color: #4a4a4a;
+}
+
+.wrap {
+  min-height: calc(100vh - 11em);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.h3 {
+  margin: 0;
+  visibility: hidden;
+  font-size: 1em;
+}
+
+footer ul li {
+  margin: 5em 0;
+  min-width: 8em;
+  text-align: center;
+}
+
+footer ul li a {
+  padding: 25px 10px 1px 10px;
+}
+
+.social-icon:hover {
+ transform: translateY(-10px);
+ transition-duration: 0.3s;
+} 
+
+.social-icon:hover > .h3 {
+  visibility: visible;
+}
